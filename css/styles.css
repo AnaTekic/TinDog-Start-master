@@ -1,7 +1,7 @@
 body {
   font-family: Montserrat, Arial;
 }
-
+/* title page */
 #title {
   background-color: #ff4c68;
 }
@@ -14,10 +14,6 @@ body {
   margin-bottom: 7%;
 }
 
-.container-fluid {
-  padding:3% 15%;
-
-}
 .download-btn {
   width: 60%;
   margin: 3% 5% 3% 0%;
@@ -41,10 +37,76 @@ body {
     padding: 0px 18px;
 
   }
-
-.nav-link {
+.container-fluid {
+  padding:3% 15%;
 
 }
 
+/* Features */
+
+#features {
+  padding: 7% 15%;
+
+}
+.icons {
+  font-size: 2.4rem;
+  color: #f57a8d;
+  padding: 10px;
+}
+.icons:hover{
+  color:#ff4c68;
+
+}
+
+.feature-box h3 {
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+/* Testemonials */
+
+#testimonials {
+  background-color: #f57a8d;
+  padding: 7% 15%;
+  font-family: Montserrat;
+  font-size:1.7rem;
+  font-weight: 700;
+  color:white;
+  text-align: center;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size:1.7rem;
+  font-weight: 700;
+  color:white;
+}
+.testimonials-img{
+  border-radius: 100%;
+  width: 20%;
+
+}
+
+#testimonials p {
+  font-weight: normal;
+  padding-top: 2%;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+
+/* Press */
+
+#press {
+  background-color: #f57a8d;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logos {
+  width: 15%;
+  margin: 20px 20px 50px;
 
 }

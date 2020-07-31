@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,500&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -62,31 +62,56 @@
   </div>
   <!-- Features -->
 
-  <section id="features">
+  <section class="container-fluid" id="features">
+    <div class="row">
+    <div class="col-lg-4 text-center feature-box">
+      <i class="fas fa-check-circle icons" ></i>
+      <h3>Easy to use.</h3>
+      <p>So easy to use, even your dog could do it.</p>
+    </div>
+    <div class="col-lg-4 text-center feature-box">
+      <i class="fas fa-bullseye icons "></i>
+      <h3>Elite Clientele</h3>
+      <p>We have all the dogs, the greatest dogs.</p>
+    </div>
+    <div class="col-lg-4 text-center feature-box">
+      <i class="fas fa-heart icons"></i>
+      <h3>Guaranteed to work.</h3>
+      <p>Find the love of your dog's life or your money back.</p>
+    </div>
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+</div>
   </section>
 
 
   <!-- Testimonials -->
 
   <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img  class="testimonials-img" src="images/dog-img.jpg" alt="dog-profile">
+          <p>Pebbles, New York</p>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+      </a>
+    </div>
+
+
+    <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
     <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+    <em>Beverly, Illinois</em>
 
   </section>
 
@@ -94,10 +119,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="press-logos" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logos" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logos" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logos" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
