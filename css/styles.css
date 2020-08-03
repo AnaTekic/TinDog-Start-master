@@ -69,11 +69,19 @@ body {
 
 #testimonials {
   background-color: #f57a8d;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 73ccd35f1b02f5a47e856306944989e69dcb07c3
   font-family: Montserrat;
   font-size:1.7rem;
   font-weight: 700;
   color:white;
   text-align: center;
+}
+.carousel-item {
+
+    padding: 7% 15%;
 }
 
 h2 {
@@ -113,4 +121,20 @@ h2 {
   width: 15%;
   margin: 20px 20px 50px;
 
+}
+
+/* Cards  Pricing*/
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+#pricing button {
+  width: 85%;
+  margin: 15px auto;
 }
