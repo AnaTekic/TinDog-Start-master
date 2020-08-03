@@ -69,7 +69,6 @@ body {
 
 #testimonials {
   background-color: #f57a8d;
-  padding: 7% 15%;
   font-family: Montserrat;
   font-size:1.7rem;
   font-weight: 700;
@@ -86,6 +85,7 @@ h2 {
 .testimonials-img{
   border-radius: 100%;
   width: 20%;
+  margin: 20px;
 
 }
 
@@ -94,6 +94,10 @@ h2 {
   padding-top: 2%;
   font-size: 1.2rem;
   font-style: italic;
+}
+.carousel-item {
+  padding: 7% 15%;
+
 }
 
 
